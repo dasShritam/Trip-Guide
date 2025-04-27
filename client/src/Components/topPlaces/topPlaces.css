@@ -1,0 +1,38 @@
+#top-places-container img {
+  border-radius: 5px;
+  position: relative;
+  /* width: 100%;
+  height: 100%;  */
+}
+#top-places-container .img-container {
+  position: relative;
+}
+
+#top-places-container .img-container b {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+#top-places-list .nav-link {
+  color: #7b7873;
+}
+
+#top-places-list .nav-link.active {
+  color: #38404f;
+  position: relative;
+  font-weight: bold;
+}
+
+#top-places-list .nav-link.active::after {
+  content: "";
+  position: absolute;
+  background: #ff6612;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+}

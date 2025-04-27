@@ -1,0 +1,28 @@
+#not-found-page {
+    background-image: url('../../../Asset/images/404-page.png');
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        color: white;
+    }
+
+    button {
+        background-color: transparent;
+        color: white;
+        border-radius: 10px;
+        width: 193px;
+        font-size: 25px;
+        height: 61px;
+        font-weight: 800;
+        margin-bottom: 44px;
+    }
+
+}

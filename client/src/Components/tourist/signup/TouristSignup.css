@@ -1,0 +1,21 @@
+#tourist-signup-form {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: calc(var(--i-padding) + 6px);
+  justify-items: center;
+}
+
+/* password show & hide feature  */
+.password-box {
+  position: relative;
+}
+.password-box input {
+  width: 100%;
+}
+.password-box i {
+  position: absolute;
+  top: 15px;
+  right: 12px;
+  cursor: pointer;
+}
