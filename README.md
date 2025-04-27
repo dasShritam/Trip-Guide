@@ -75,6 +75,6 @@ Create a .env file in the server directory and add any necessary environment var
 Run the Node.js server:
 
 
-npm start
+node ./index.js 
 The server will be running at http://localhost:4050.
 
